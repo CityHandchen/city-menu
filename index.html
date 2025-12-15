@@ -1,1 +1,893 @@
 
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Restaurant – Menü (DE/AR/RU)</title>
+<style>
+  :root{
+    --bg:#0b0b0b;
+    --green:#1f7a3a;
+    --green-dark:#155c2b;
+    --text:#ffffff;
+    --arabic:#ffd54f;
+    --russian:#d1d5db;
+    --rule:#2a2a2a;
+  }
+  *{box-sizing:border-box}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,'Noto Naskh Arabic','Amiri',sans-serif;
+    margin:16px;
+    line-height:1.25;
+  }
+  header{text-align:center;margin-bottom:12px}
+  .brand{font-size:26px;font-weight:900;letter-spacing:.5px}
+  .ribbon{
+    background:linear-gradient(180deg,var(--green),var(--green-dark));
+    color:#fff;padding:8px 14px;border-radius:10px;display:inline-block;font-weight:800
+  }
+  .section{margin-top:16px;page-break-inside:avoid}
+  .section h2{
+    background:linear-gradient(180deg,var(--green),var(--green-dark));
+    color:#fff;margin:0;padding:8px 12px;border-radius:10px;font-size:18px;letter-spacing:.2px
+  }
+  .item{display:flex;align-items:flex-start;gap:12px;padding:8px 0;border-bottom:1px dashed var(--rule)}
+  .left{flex:1;min-width:0}
+  .line{display:flex;align-items:baseline;gap:8px}
+  .name-de{font-weight:700;font-size:16px;white-space:normal}
+  .dots{flex:1;border-bottom:1px dotted #5ca86b;margin:0 8px;transform:translateY(-4px);opacity:.8}
+  .price{min-width:120px;text-align:right;font-weight:900;font-size:16px;display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}.price .sizes{font-weight:700;font-size:11px;opacity:.95;margin-bottom:2px;letter-spacing:.2px}.price .values{font-weight:900;font-size:16px;white-space:nowrap}
+  .name-ar{direction:rtl;color:var(--arabic);font-size:15px;margin-top:2px}
+  .name-ru{color:var(--russian);font-size:14px;margin-top:2px}
+  .drinks .name-de{font-weight:600}
+  .drinks .item{padding:6px 0}
+  @media print{body{margin:8mm}.section{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">CITY RESTAURANT</div>
+  <div class="ribbon">Menü – Deutsch / العربية / Русский</div>
+</header>
+
+<section class="section">
+<h2>Vegetarisch</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">02. Falafel Tasche mit Salat, Humus und Sauce</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">ساندويش فلافل مع سلطة وحمص وصوص</div>
+<div class="name-ru">Фалафель в лаваше с салатом, хумусом и соусом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">03. Falafel Tasche mit 4 Bällchen, Salat und Sauce</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">ساندويش فلافل مع ٤ قطع، سلطة وصوص</div>
+<div class="name-ru">Фалафель в лаваше (4 шт), салат и соус</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">04. Falafel Tasche mit 4 Bällchen, Humus, Salat und Sauce</div>
+<div class="dots"></div>
+<div class="price">4,00 €</div>
+</div>
+<div class="name-ar">ساندويش فلافل مع ٤ قطع، حمص، سلطة وصوص</div>
+<div class="name-ru">Фалафель (4 шт) в лаваше, хумус, салат и соус</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">05. Falafel Teller mit Humus, Salat und Sauce</div>
+<div class="dots"></div>
+<div class="price">6,00 €</div>
+</div>
+<div class="name-ar">طبق فلافل مع حمص وسلطة وصوص</div>
+<div class="name-ru">Тарелка фалафеля с хумусом, салатом и соусом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">06. Falafel Teller mit Reis, Salat und Sauce</div>
+<div class="dots"></div>
+<div class="price">7,00 €</div>
+</div>
+<div class="name-ar">طبق فلافل مع أرز وسلطة وصوص</div>
+<div class="name-ru">Тарелка фалафеля с рисом, салатом и соусом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">08. Vegetarische Tasche mit Käse und Salat</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">ساندويش نباتي مع جبنة وسلطة</div>
+<div class="name-ru">Вегетарианский лаваш с сыром и салатом</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Vegan (Vegan Gerichte alles mit Salat)</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">19. Kebbe Teller mit Pommes und Salat (3 Stk)</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">طبق كبة مع بطاطا مقلية وسلطة (٣ قطع)</div>
+<div class="name-ru">Киббе, тарелка с картофелем фри и салатом (3 шт)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">20. Kebbe (Stück)</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+<div class="name-ar">كبة (قطعة)</div>
+<div class="name-ru">Киббе (1 шт)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">21. Auberginencreme mit Brot</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">متبل باذنجان مع خبز</div>
+<div class="name-ru">Крем из баклажанов с хлебом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">22. Humus mit Brot</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">حمص مع خبز</div>
+<div class="name-ru">Хумус с хлебом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">23. Humus Teller mit Brot und Salat</div>
+<div class="dots"></div>
+<div class="price">7,50 €</div>
+</div>
+<div class="name-ar">طبق حمص مع خبز وسلطة</div>
+<div class="name-ru">Тарелка хумуса с хлебом и салатом</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Arabisches Brot (alle mit arabischem Brot, Salat und Knoblauchsauce)</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">30. Shawarma Tasche mit Hähnchenfleisch</div>
+<div class="dots"></div>
+<div class="price"><div class="sizes">klein · mittel · groß</div><div class="values">2,50 · 4,50 · 5,50&nbsp;€</div></div>
+</div>
+<div class="name-ar">سندويتش شاورما دجاج</div>
+<div class="name-ru">Шаурма в лаваше с курицей</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">31. Shawarma Sandwich mit Hähnchenbrust (arabisch Brot)</div>
+<div class="dots"></div>
+<div class="price"><div class="sizes">klein · mittel · groß</div><div class="values">2,50 · 4,50 · 5,50&nbsp;€</div></div>
+</div>
+<div class="name-ar">سندويتش شاورما صدر الدجاج</div>
+<div class="name-ru">Сэндвич шаурма с куриной грудкой</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">32. Hähnchencrispy Tasche</div>
+<div class="dots"></div>
+<div class="price">5,00 / 6,00 €</div>
+</div>
+<div class="name-ar">سندويتش دجاج مقرمش</div>
+<div class="name-ru">Лаваш с хрустящей курицей</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">33. Hackfleischspieß (Holzkohle) mit Rind oder Lammfleisch</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">سندويتش كباب (فحم)</div>
+<div class="name-ru">Кебаб из рубленого мяса (на углях)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">34. Hähnchenspieß (Holzkohle)</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">سندويتش الطاووق</div>
+<div class="name-ru">Шашлык из курицы (на углях)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">35. Putenspieß (Holzkohle)</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">سندويتش الديك الرومي (فحم)</div>
+<div class="name-ru">Шашлык из индейки (на углях)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">36. Kalbsspies Stück (Holzkohle)</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">سندويتش قطعة لحم العجل (فحم)</div>
+<div class="name-ru">Шашлык из телятины (на углях)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">37. Lammspieß Stück (Holzkohle)</div>
+<div class="dots"></div>
+<div class="price">6,00 €</div>
+</div>
+<div class="name-ar">سندويتش قطعة لحم الغنم (فحم)</div>
+<div class="name-ru">Шашлык из баранины</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Drehspieß, Dürüm & Köfte (mit Trinkwasser, Soja und Stärke)</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">46. Drehspieß Dürüm</div>
+<div class="dots"></div>
+<div class="price">4,50 €</div>
+</div>
+<div class="name-ar">دونر دوروم</div>
+<div class="name-ru">Дюрюм с донером</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">47. Arabische Shawarmateller aus Hähnchenfleisch, mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">9,00 €</div>
+</div>
+<div class="name-ar">وجبة شاورما عربي مع البطاطا والسلطات</div>
+<div class="name-ru">Арабская шаурма, тарелка с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">48. Drehspieß Teller mit Hähnchenfleisch, mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">9,00 €</div>
+</div>
+<div class="name-ar">صحن دونر دجاج مع بطاطا وسلطة</div>
+<div class="name-ru">Тарелка донера с курицей, фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">49. Drehspieß Teller mit Hähnchenfleisch, Humus, Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">9,00 €</div>
+</div>
+<div class="name-ar">صحن دونر دجاج مع حمص وبطاطا وسلطة</div>
+<div class="name-ru">Тарелка донера с курицей, хумусом, фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">50. Drehspieß Teller mit Hähnchenspieß, Reis oder Couscous, Salat und Sauce</div>
+<div class="dots"></div>
+<div class="price">9,00 €</div>
+</div>
+<div class="name-ar">صحن شاورما دجاج مع سيخ دجاج ورز او كسكس</div>
+<div class="name-ru">Тарелка донера с куриным шашлыком, рисом или кускусом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">51. 1 KG Hähnchenshawarma mit Knoblauchsauce und saure Gurken</div>
+<div class="dots"></div>
+<div class="price">20,00 €</div>
+</div>
+<div class="name-ar">كيلو شاورما دجاج مع صلصة الثوم ومخلل</div>
+<div class="name-ru">1 кг куриной шаурмы с чесночным соусом и огурчиками</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">52. 1 KG Kebap ohne alles</div>
+<div class="dots"></div>
+<div class="price">23,00 €</div>
+</div>
+<div class="name-ar">كيلو كباب بدون اي شي</div>
+<div class="name-ru">1 кг кебаба без добавок</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">53. Drehspieß Box mit Hähnchenspieß, Pommes und Tzatziki</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">صحن شاورما دجاج مع بطاطا وتزاتزيكي</div>
+<div class="name-ru">Бокс донер с куриным шашлыком, фри и дзадзики</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">54. Drehspieß Box mit Reis und Tzatziki</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">صحن شاورما دجاج مع رز وتزاتزيكي</div>
+<div class="name-ru">Бокс донер с рисом и дзадзики</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">55. Drehspieß Box mit Salat und Tzatziki</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">صحن شاورما دجاج مع سلطة وتزاتزيكي</div>
+<div class="name-ru">Бокс донер с салатом и дзадзики</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Extras</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">110. Humus Becher</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+<div class="name-ar">صحن حمص</div>
+<div class="name-ru">Порция хумуса</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">111. Aubergine Becher</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+<div class="name-ar">صحن الباذنجان</div>
+<div class="name-ru">Паста из баклажанов (мутабал)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">112. Knoblauch Becher</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+<div class="name-ar">صحن الثوم</div>
+<div class="name-ru">Порция чесночного соуса</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">113. Scharfesoße Becher</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+<div class="name-ar">صحن صلصة حارة</div>
+<div class="name-ru">Порция острого соуса</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">114. Pommes mit Ketchup und Mayonnaise (normal)</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+<div class="name-ar">البطاطا المقلية وسط كبير مع كاتشب ومايونيز</div>
+<div class="name-ru">Картофель фри с кетчупом и майонезом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">1 KG Kebap ohne alles</div>
+<div class="dots"></div>
+<div class="price">22,00 €</div>
+</div>
+<div class="name-ar">كيلو كباب بدون اي شي</div>
+<div class="name-ru">1 кг кебаба без добавок</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">1 KG Hänchenfleisch aus Brustfilet</div>
+<div class="dots"></div>
+<div class="price">22,00 €</div>
+</div>
+<div class="name-ar">كيلو طاووق بدون اي شي</div>
+<div class="name-ru">1 кг куриного филе (грудка)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">1 KG Lammfleisch</div>
+<div class="dots"></div>
+<div class="price">30,00 €</div>
+</div>
+<div class="name-ar">كيلو غرام الغنم</div>
+<div class="name-ru">1 кг баранины</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Gegrillte Hähnchen</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">65. 1/2 Gegrillt Hähnchen</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">فروج مشوي 1/2</div>
+<div class="name-ru">1/2 курицы гриль</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">66. 1/2 Hänchen Teller mit Pommes, Humus, saure Gurken und Knoblauch Sauce</div>
+<div class="dots"></div>
+<div class="price">7,50 €</div>
+</div>
+<div class="name-ar">فروج مشوي 1/2 مع البطاطا المقلية والحمص والمخللات وبصاصة الثوم</div>
+<div class="name-ru">1/2 курицы, тарелка с фри, хумусом, солёными огурцами и чесночным соусом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">67. Ganzes Hänchen</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">فروج مشوي كامل</div>
+<div class="name-ru">Целая курица гриль</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">68. Ganzes Hänchen mit Knoblauch und saure Gurken</div>
+<div class="dots"></div>
+<div class="price">13,50 €</div>
+</div>
+<div class="name-ar">فروج مشوي كامل مع الثوم والمخللات</div>
+<div class="name-ru">Целая курица с чесночным соусом и солёными огурчиками</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">69. 1/2 Hänchen Teller mit Knoblauch und saure Gurken</div>
+<div class="dots"></div>
+<div class="price">7,00 €</div>
+</div>
+<div class="name-ar">فروج مشوي 1/2 مع الثوم والمخللات</div>
+<div class="name-ru">1/2 курицы с чесночным соусом и солёными огурчиками</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">71. 1/2 Hänchen mit Pommes</div>
+<div class="dots"></div>
+<div class="price">7,50 €</div>
+</div>
+<div class="name-ar">1/2 فروج مع بطاطا</div>
+<div class="name-ru">1/2 курицы с картофелем фри</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Hausgemachter Burger</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">73. Chicken Nuggets mit Pommes 6 Stk</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">ست قطع دجاج ناجيتس مع بطاطا مقلية</div>
+<div class="name-ru">Куриные наггетсы (6 шт) с картофелем фри</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">74. Normaler Hamburger (aus Rindfleisch oder Hähnchen)</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">همبرجر العادي لحم البقر او الدجاج</div>
+<div class="name-ru">Гамбургер (говядина или курица)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">75. Cheeseburger (aus Rindfleisch oder Hähnchen)</div>
+<div class="dots"></div>
+<div class="price">3,50 €</div>
+</div>
+<div class="name-ar">تشيز برجر لحم البقر او الدجاج</div>
+<div class="name-ru">Чизбургер (говядина или курица)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">77. Doppelt Hamburger mit Käse</div>
+<div class="dots"></div>
+<div class="price">5,00 €</div>
+</div>
+<div class="name-ar">دوبل همبرجر مع الجبن</div>
+<div class="name-ru">Двойной гамбургер с сыром</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">78. Hamburger Teller mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">6,00 €</div>
+</div>
+<div class="name-ar">صحن همبرجر مع البطاطا والسلطة</div>
+<div class="name-ru">Тарелка гамбургера с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">79. Hamburger Teller mit Pommes, Salat und Käse</div>
+<div class="dots"></div>
+<div class="price">6,50 €</div>
+</div>
+<div class="name-ar">صحن همبرجر مع البطاطا والسلطة والجبن</div>
+<div class="name-ru">Тарелка гамбургера с фри, салатом и сыром</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Grill Spezialitäten</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">86. 2 gegrillte Hackfleischspieß aus Kalb-Lammfleisch mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">وجبة كباب مشوي 2 أسياخ مع بطاطا سلطة</div>
+<div class="name-ru">2 шампура кебаба (телятина-баранина) с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">87. 2 gegrillte Hackfleischspieß aus Kalb-Lammfleisch mit Pommes, Salat, Humus, gegrillte Tomaten und Paprika</div>
+<div class="dots"></div>
+<div class="price">11,50 €</div>
+</div>
+<div class="name-ar">وجبة كباب مشوي 2 أسياخ مع بطاطا وسلطة والحمص والطماطم المشوية والفلفل</div>
+<div class="name-ru">2 шампура кебаба с фри, салатом, хумусом, печёными томатами и перцем</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">88. Lammfleisch Spieß Teller mit 2 Spießen</div>
+<div class="dots"></div>
+<div class="price">11,50 €</div>
+</div>
+<div class="name-ar">وجبة لحم غنم 2 أسياخ مع بطاطا سلطة</div>
+<div class="name-ru">Тарелка из баранины (2 шампура)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">89. Lammfleisch Spieß Teller mit 2 Spieß, Humus, gegrillte Tomaten und Paprika</div>
+<div class="dots"></div>
+<div class="price">13,50 €</div>
+</div>
+<div class="name-ar">وجبة لحم غنم 2 أسياخ مع بطاطا وسلطة والحمص والطماطم والفلفل المشوي</div>
+<div class="name-ru">Баранина (2 шампура) с хумусом, печёными томатами и перцем</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">90. Hähnchen Spieß Teller mit 2 Spieß</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">وجبة طاووق 2 أسياخ مع بطاطا وسلطة</div>
+<div class="name-ru">Тарелка из курицы (2 шампура)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">91. Hähnchen Flügel mit 1 Spieß</div>
+<div class="dots"></div>
+<div class="price">8,50 €</div>
+</div>
+<div class="name-ar">وجبة جناح فروج 1 سيخ</div>
+<div class="name-ru">Куриные крылья (1 шампур)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">92. Hähnchen Kotlett 2 Stück</div>
+<div class="dots"></div>
+<div class="price">6,50 €</div>
+</div>
+<div class="name-ar">وجبة شفش دجاج</div>
+<div class="name-ru">Котлеты куриные (2 шт)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">93. Hähnchen Kotlett 1 Stück</div>
+<div class="dots"></div>
+<div class="price">6,50 €</div>
+</div>
+<div class="name-ar">وجبة شفش دجاج</div>
+<div class="name-ru">Котлета куриная (1 шт)</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">94. Hähnchencrispy aus Hähnchenfilet 5 Stück auf Teller mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">وجبة كرسبي 5 قطع مع بطاطا وثوم وسلطة</div>
+<div class="name-ru">Курица «криспи» (5 шт) с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">95. Hähnchenbrust 5 Stück auf Teller mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">وجبة بروستد 5 قطع مع بطاطا وثوم وسلطة</div>
+<div class="name-ru">Куриная грудка (5 шт) с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">96. Gemischter Spezialteller aus 1 gegrillten Hackfleischspieß, mit Pommes und Salat</div>
+<div class="dots"></div>
+<div class="price">7,50 €</div>
+</div>
+<div class="name-ar">وجبة كباب مشوي 1 أسياخ مع بطاطا وسلطة</div>
+<div class="name-ru">Специальное ассорти (1 шампур кебаба) с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">97. Lammfleisch Spieß Teller mit 1 Spieß</div>
+<div class="dots"></div>
+<div class="price">7,50 €</div>
+</div>
+<div class="name-ar">وجبة لحم غنم 1 أسياخ مع بطاطا وسلطة</div>
+<div class="name-ru">Баранина (1 шампур) с фри и салатом</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">98. Hähnchen Spieß Teller mit Spieße</div>
+<div class="dots"></div>
+<div class="price">10,00 €</div>
+</div>
+<div class="name-ar">وجبة طاووق 1 أسياخ مع بطاطا وسلطة</div>
+<div class="name-ru">Курица (шампур) с фри и салатом</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>City Spezial</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">105. Gemischte Grillplatte für 4 Personen</div>
+<div class="dots"></div>
+<div class="price">50,00 €</div>
+</div>
+<div class="name-ar">وجبة عائلية لربة أشخاص أسياخ</div>
+<div class="name-ru">Смешанное гриль-ассорти на 4 персоны</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">106. Gemischte Grillplatte für 2 Personen</div>
+<div class="dots"></div>
+<div class="price">35,00 €</div>
+</div>
+<div class="name-ar">وجبة عائلية اثنين أشخاص اثنين أسياخ</div>
+<div class="name-ru">Смешанное гриль-ассорти на 2 персоны</div>
+</div>
+</div>
+</section>
+
+<section class="section drinks">
+<h2>Getränke</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Coca Cola 0,33l</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Fanta 0,33l</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Sprite 0,33l</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Mezzo Mix 0,33l</div>
+<div class="dots"></div>
+<div class="price">2,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Ayran 0,25l</div>
+<div class="dots"></div>
+<div class="price">1,50 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Wasser 0,5l</div>
+<div class="dots"></div>
+<div class="price">1,50 €</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section drinks">
+<h2>Softgetränke zum hier Trinken 1L</h2>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Coca Cola</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Fanta</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Sprite</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="left">
+<div class="line">
+<div class="name-de">Mezzo Mix</div>
+<div class="dots"></div>
+<div class="price">3,00 €</div>
+</div>
+</div>
+</div>
+</section>
+</body></html>
